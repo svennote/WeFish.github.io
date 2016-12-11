@@ -1,0 +1,133 @@
+---
+---
+
+$ahsc: #E8EAF6;
+$ahsd: #1A237E;
+
+body {
+  background-color: $ahsc;
+  color: lighten($ahsc, 100%);
+}
+
+
+
+.logo {
+
+padding:5px;
+display:block;
+margin:0 0 0 10px auto;
+width:35%;
+
+}
+
+footer {
+
+background-color:$ahsd;
+height:30px;
+position: absolute;
+bottom:0;
+left:0;
+right:0;
+text-align: center;
+
+}
+
+footer a:link, a:visited {
+
+text-decoration: none;
+color:white;
+padding:5px;
+
+}
+
+header {
+
+background-color: $ahsd;
+position: absolute;
+top:0;
+left:0;
+right:0;
+height:50px;
+
+}
+
+input[type="submit"] {
+
+background-color:$ahsd;
+color:white;
+
+}
+
+form td a:link, a:visited {
+
+text-decoration: none;
+color:$ahsd;
+
+}
+
+
+.inlogger {
+
+width:7%;
+padding:15px;
+float:right;
+
+}
+
+.container {
+
+
+margin-top:100px;
+color:black;
+
+}
+
+.container form {
+
+display:block;
+margin:0 auto;  
+width:100%;
+
+
+}
+
+
+header #loginwelkom {
+
+height:100px;
+width:200px;
+display:block;
+float:right;
+font-size:15px;
+color:black;
+
+}
+
+.navigation {
+
+position:absolute;
+bottom:30px;
+left:0;
+right:0;
+height:50px;
+
+
+}
+
+.about {
+
+margin-top:150px;
+color:black;
+
+}
+
+.navigation a:link, a:visited {
+
+
+background-color: $ahsd;
+padding:5px;
+text-decoration: none;
+text-align: center;
+color:white;
+
+}
