@@ -1,0 +1,8 @@
+---
+---
+
+$ahsc: hsl(120deg, 50%, 50%);
+body {
+  background-color: $ahsc;
+  color: lighten($ahsc, 100%);
+}
