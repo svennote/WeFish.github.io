@@ -1,8 +1,16 @@
 ---
 ---
 
-$ahsc: hsl(120deg, 50%, 50%);
+$ahsc:#3F51B5;
+
+
 body {
   background-color: $ahsc;
   color: lighten($ahsc, 100%);
+}
+
+.inlogger {
+
+width:100px;
+
 }
