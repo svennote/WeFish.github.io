@@ -15,7 +15,7 @@ body {
 
 padding:5px;
 display:block;
-margin:0 0 0 10px auto;
+margin:0 0 0 10px;
 width:30%;
 
 }
@@ -48,6 +48,12 @@ top:0;
 left:0;
 right:0;
 height:50px;
+
+}
+
+input[type="text"] {
+
+width:250px:
 
 }
 
