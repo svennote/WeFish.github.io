@@ -89,7 +89,3 @@ title   : "We Fish"
 </g>
 </svg>
 <a href="start.html" class="link">Ontdek</a>
-
-{% for post in site.posts %}
-{{ post.title }}{{ post.excerpt }}
-{% endfor %}
