@@ -5,8 +5,14 @@ $ahsc: #E8EAF6;
 $ahsd: #1A237E;
 $ahse: #9FA8DA;
 
-body {
+* {
+
   font-family:'Tw Cen MT';
+
+}
+
+body {
+
   background-color: $ahsc;
   color: lighten($ahsc, 100%);
 }
