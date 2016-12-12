@@ -125,10 +125,11 @@ width:100%;
 
 }
 
-.registreerlink a:link, a:visited {
+form.registreerlink a:link, a:visited {
 
 color:$ahsd;
-
+text-decoration:none;
+background-color:pink;
 }
 
 
