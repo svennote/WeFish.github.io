@@ -6,15 +6,17 @@ $ahsd: #1A237E;
 $ahse: #E8EAF6;
 
 body {
-  font-family:'Tw Cen MT';
+  
   background-color: $ahsc;
   color: lighten($ahsc, 100%);
 }
 
 @font-face {
 	font-family: 'Tw Cen MT';
-	src: url('lettertypes/TwCenMT-Regular.eot');
-	src: url('lettertypes/TwCenMT-Regular.eot?#iefix') format('embedded-opentype');
+	src: url('../lettertypes/TwCenMT-Regular.eot');
+	src: url('../lettertypes/TwCenMT-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../lettertypes/TwCenMT-Regular.woff') format('woff'),
+		url('../lettertypes/TwCenMT-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
