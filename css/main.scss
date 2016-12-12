@@ -14,9 +14,7 @@ body {
 @font-face {
 	font-family: 'Tw Cen MT';
 	src: url('lettertypes/TwCenMT-Regular.eot');
-	src: url('lettertypes/TwCenMT-Regular.eot?#iefix') format('embedded-opentype'),
-		url('lettertypes/TwCenMT-Regular.woff') format('woff'),
-		url('lettertypes/TwCenMT-Regular.ttf') format('truetype');
+	src: url('lettertypes/TwCenMT-Regular.eot?#iefix') format('embedded-opentype');
 	font-weight: normal;
 	font-style: normal;
 }
