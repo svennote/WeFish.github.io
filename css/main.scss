@@ -86,15 +86,12 @@ float:right;
 }
 
 a.link {
-
+display:block;
+margin:0 auto;
 padding:10px;
 border-radius:5px;
 background-color: $ahse;
-position:absolute;
 text-align: center;
-bottom:50px;
-left:100px;
-right:100px;
 text-decoration: none;
 color:black;
 
@@ -111,7 +108,7 @@ color:white;
     
 	a.link {
 
-		width:400px;
+		width:200px;
 
 	}
 
