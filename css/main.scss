@@ -32,16 +32,16 @@ body {
 
 footer {
 
-
 position: absolute;
 bottom:0;
 left:0;
 right:0;
-text-align: center;
 }
 
 footer a:link, a:visited {
 
+width:33%;
+background-color:$ahsd;
 text-decoration: none;
 color:white;
 padding:5px;
