@@ -37,15 +37,12 @@ width:100px;
 
 }
 
-footer {
+footer a:link, a:visited {
 
+width:33%;
 background-color:$ahsd;
-height:20px;
-position: absolute;
-bottom:0;
-left:0;
-right:0;
-text-align: center;
+text-decoration: none;
+color:white;
 padding:5px;
 
 }
