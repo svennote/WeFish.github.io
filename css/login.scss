@@ -47,11 +47,13 @@ right:0;
 
 footer a:link, a:visited {
 
+display:block;
+float:left;
 width:33%;
 background-color:$ahsd;
 text-decoration: none;
 color:white;
-
+padding:5px;
 
 }
 
