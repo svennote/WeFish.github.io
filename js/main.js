@@ -10,6 +10,11 @@ function onlineChecker(){
 
 };
 
+function logOut(){
+	localStorage.removeItem("userOnline");
+	window.location = "login.html";
+}
+
 
 
 function GebruikerRegistreren() {
