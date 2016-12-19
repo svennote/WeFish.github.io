@@ -1,4 +1,17 @@
 // storing input from register-form
+
+function onlineChecker(){
+
+	if(localStorage.getItem("userOnline") == null){
+		window.location = "login.html";
+	}else{
+		window.location = "profile.html";
+	}
+
+};
+
+
+
 function GebruikerRegistreren() {
 	
 	// registreer formulier ingevulde data in variabelen steken.
