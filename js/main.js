@@ -1,4 +1,4 @@
-// storing input from register-form
+
 
 function onlineChecker(){
 
@@ -10,8 +10,29 @@ function onlineChecker(){
 
 };
 
+window.onload = function() {
+	document.getElementById('GebruikersNaamHeader').innerText = JSON.parse( localStorage.getItem( 'userOnline' ));
 
-document.getElementById('GebruikersNaamHeader').innerText = JSON.parse( localStorage.getItem( 'userOnline' ));
+	var naamData = "";
+	var voornaamData = "";
+
+	var userNameIngelogt = JSON.parse(localStorage.getItem('userOnline'));
+	console.log(userNameIngelogt);
+	var testje = JSON.parse(localStorage.getItem('users'));
+	for( var i = 1; i < testje.length; i++){
+    	if(JSON.parse(localStorage.getItem('users'))[i].gebruikersnaam == userNameIngelogt){
+    			console.log("Gebruikersnaam is aanwezig!");
+    			var naamData = JSON.parse(localStorage.getItem('users'))[i].naam;
+            	var voornaamData = JSON.parse(localStorage.getItem('users'))[i].voornaam;
+       	}else{
+    			
+    	}
+    };
+
+    var gegevensProfiel = document.getElementById('profielGegevens');
+    gegevensProfiel.innerHTML = voornaamData+"<br/>"+naamData;
+};
+
 
 function logOut(){
 	localStorage.removeItem("userOnline");
