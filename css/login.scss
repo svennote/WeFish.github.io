@@ -149,6 +149,54 @@ color:black;
 
 }
 
+.stedenwrapper{
+	margin-top: 100px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.stedenlink{
+	text-decoration: none;
+	display: block;
+	width: 200px
+
+}
+
+.stedenNav{
+	background-color: $ahsd;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom:10px;
+	width: 200px;
+	height: 40px;
+	display: block;
+}
+
+.stedenNav h3{
+	padding-top: 9px;
+	color: white;
+}
+
+.visWrapper{
+	overflow-y:scroll;
+	height: 280px;
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.visIcoon{
+	width: 60px;
+}
+
+td h2{
+	margin-left: 20px;
+	color: $ahsd;
+}
+
+
 @media screen and (min-width: 400px) {
     
 
