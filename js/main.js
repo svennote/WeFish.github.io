@@ -10,6 +10,9 @@ function onlineChecker(){
 
 };
 
+
+document.getElementById('GebruikersNaamHeader').innerText = JSON.parse( localStorage.getItem( 'userOnline' ));
+
 function logOut(){
 	localStorage.removeItem("userOnline");
 	window.location = "login.html";
