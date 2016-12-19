@@ -1,6 +1,6 @@
 // storing input from register-form
 function GebruikerRegistreren() {
-	event.preventDefault();
+	
 	// registreer formulier ingevulde data in variabelen steken.
 	var userNm = document.getElementById('userNaam').value;
 	var userVnm = document.getElementById('userVoornaam').value;
