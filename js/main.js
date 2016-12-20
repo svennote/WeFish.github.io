@@ -1,5 +1,5 @@
 
-
+// Checkt of de user online is in de storage: ja => profielpagina , nee => inlogpagina
 function onlineChecker(){
 
 	if(localStorage.getItem("userOnline") == null){
@@ -11,6 +11,8 @@ function onlineChecker(){
 };
 
 window.onload = function() {
+
+	//Kijkt of de user online is en neemt dan zijn data om dit te weergeven op de profiel pagina
 	document.getElementById('GebruikersNaamHeader').innerText = JSON.parse( localStorage.getItem( 'userOnline' ));
 
 	var naamData = "";
@@ -21,7 +23,7 @@ window.onload = function() {
 	var testje = JSON.parse(localStorage.getItem('users'));
 	for( var i = 1; i < testje.length; i++){
     	if(JSON.parse(localStorage.getItem('users'))[i].gebruikersnaam == userNameIngelogt){
-    			console.log("Gebruikersnaam is aanwezig!");
+    			console.log("Gebruikersnaam is aanwezig!"); //Controle of werkt
     			var naamData = JSON.parse(localStorage.getItem('users'))[i].naam;
             	var voornaamData = JSON.parse(localStorage.getItem('users'))[i].voornaam;
        	}else{
@@ -33,14 +35,14 @@ window.onload = function() {
     gegevensProfiel.innerHTML = voornaamData+"<br/>"+naamData;
 };
 
-
+// Als je op de logout knop duwt word je afgemeld en naar de login pagina doorverwezen
 function logOut(){
 	localStorage.removeItem("userOnline");
 	window.location = "login.html";
 }
 
 
-
+// Deze functie kijkt of er een localstorage aanwezig is van users en voegt de gebruiker toe (zo niet maakt hem aan)
 function GebruikerRegistreren() {
 	
 	// registreer formulier ingevulde data in variabelen steken.
@@ -71,6 +73,7 @@ if (localStorage.getItem("users") !== null) {
 
 }
 
+//Kijkt of de ingevulde gebruiker bestaat en logt die dan in
 function GebruikerInloggen(){
 	event.preventDefault();
 	var InlogNaam = document.getElementById('InlogNaam').value;
@@ -91,7 +94,7 @@ function GebruikerInloggen(){
     	}
     };
 
-    //extra check of de naam dus bestaat en dan een wachtwoord check
+    //extra check of de naam dus bestaat en dan het wachtwoord checkt
     if(naamBestaat !== ""){
     	console.log(naamBestaat);
     	for( var i = 1; i < testje.length; i++){
