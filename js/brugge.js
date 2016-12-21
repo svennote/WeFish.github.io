@@ -2,7 +2,7 @@ var html = '';
 var tempStr = '';
 $(document).ready(function () {
   $.simpleWeather({
-    location: 'Brugge, West-Vlaanderen',
+    location: 'Bruges, West-Vlaanderen',
     woeid: '',
     unit: 'C',
     success: function (weather) {
