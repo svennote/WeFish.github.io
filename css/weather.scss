@@ -5,16 +5,13 @@
   font-weight: normal;
   font-style: normal; }
 #weather {
-  width: 90%;
-  max-width: 300px;
+    width:300px;     
   margin-left:auto;
   margin-right:auto;
   text-align: center;
   text-transform: uppercase; }
 
 i {
-  color: #6C6;
-  font-family: weather;
   font-size: 150px;
   font-weight: normal;
   font-style: normal;
@@ -167,18 +164,17 @@ i {
 
 #weather h2 {
   margin: 0;
-  color: #6C6;
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 300;
   text-align: center;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15); }
+
 
 #weather ul {
   margin: 0;
   padding: 0; }
 
 #weather li {
-  color: #6C6;
+
   display: inline-block;
   text-align: center;
   border-radius: 5px;
@@ -190,16 +186,3 @@ i {
 
 #weather .currently {
   margin: 0 20px; }
-
-.blue-bikes p {
-  margin: 0;
-  padding: 0; }
-.blue-bikes .bold {
-  font-weight: 700; }
-.blue-bikes h3 {
-  padding-top: 25px;
-  margin-bottom: 5px;
-  color: #6C6;
-  border-bottom: solid 1px #6C6; }
-
-/*# sourceMappingURL=weather.css.map */
