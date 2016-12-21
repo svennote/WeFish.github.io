@@ -13,6 +13,7 @@ function onlineChecker(){
 window.onload = function() {
 
 	//Kijkt of de user online is en neemt dan zijn data om dit te weergeven op de profiel pagina
+	if(document.getElementById('GebruikersNaamHeader') != undefined){
 	document.getElementById('GebruikersNaamHeader').innerText = JSON.parse( localStorage.getItem( 'userOnline' ));
 
 	var naamData = "";
@@ -33,6 +34,9 @@ window.onload = function() {
 
     var gegevensProfiel = document.getElementById('profielGegevens');
     gegevensProfiel.innerHTML = voornaamData+"<br/>"+naamData;
+	}else{
+
+	};
 };
 
 // Als je op de logout knop duwt word je afgemeld en naar de login pagina doorverwezen
