@@ -218,12 +218,19 @@ color:black;
 }
 
 .visWrapper{
-	overflow-y:scroll;
 	height: 280px;
 	width:280px;
 	margin-top: 75px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.visDetailWrapper{
+  min-height: 280px;
+  min-width:280px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .visIcoon{
