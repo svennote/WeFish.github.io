@@ -343,7 +343,7 @@ window.onload = function() {
 		var locatieNaam = JSON.parse(localStorage.getItem('Locationes'));
 		switch(locatieNaam) {
 		    case "Eiland_Malem":
-		        var locatiebeginNaam = locatieDB.locatiesDBl[0].Eiland_Malem;
+		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].Eiland_Malem;
 		        break;
 		    case "vijver_dienstencentrum_mariakerke":
 		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].vijver_dienstencentrum_mariakerke;
