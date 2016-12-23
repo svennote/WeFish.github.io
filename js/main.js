@@ -299,7 +299,7 @@ window.onload = function() {
 	//VisdetailPagina dinges
 	if(document.getElementById('visDetailInfo') != undefined){
 	
-		console.log(vissenDB.vissen[0].snoek);
+		
 		var linkdetail = document.getElementById('visDetailInfo');
 		var visNaam = JSON.parse(localStorage.getItem('GeklikteVis'));
 		switch(visNaam) {
@@ -328,8 +328,8 @@ window.onload = function() {
 		        text = "I have never heard of that fish...";
 		}
 
-		console.log(beginNaam);
-		linkdetail.innerHTML = "<h2>"+beginNaam.titel+"</h2><br/><p>"+beginNaam.info_vis+"</p><br/><br/><p><b>locatie:</b> "+beginNaam.locaties+"</p>";
+		
+		linkdetail.innerHTML = "<h2>"+beginNaam.titel+"</h2><br/>" + beginNaam.link_foto +"<br /><p>"+beginNaam.info_vis+"</p><br/><br/><p><b>locatie:</b> "+beginNaam.locaties+"</p>";
 
 	}else{
 
