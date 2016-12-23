@@ -8,7 +8,7 @@ var vissenDB = {"vissen":[
 
         "titel": "Snoek",
 
-        "link_foto":"images/snoek.png",
+        "link_foto":"../images/snoek.png",
 
         "info_vis":"De snoek (Esox lucius) is een grote zoetwatervis uit de familie van de snoeken (Esocidae). Het is een van de roofvissen die in België en Nederland voorkomen. De snoek is daarnaast in delen van Europa, Azië en Noord-Amerika te vinden. De snoek is een zoetwatervis en heeft een karakteristieke, torpedo-achtige lichaamsbouw. Snoeken kunnen 15 jaar oud worden.",
 
@@ -22,7 +22,7 @@ var vissenDB = {"vissen":[
 
         "titel": "Karper",
 
-        "link_foto":"images/carp.png",
+        "link_foto":"../images/carp.png",
 
         "info_vis":"De Europese karper (Cyprinus carpio), ook wel gewoon karper, is een beenvis uit de orde van karperachtigen. De vis kan tot 120 cm lang worden.De karper is herkenbaar aan zijn 4 baarddraden, twee korte op de bovenlip, twee lange in de mondhoeken en de lange rugvin met zeer sterke eerste vinstralen. In de natuur kan hij 30 tot 40 jaar worden.",
 
@@ -36,7 +36,7 @@ var vissenDB = {"vissen":[
 
         "titel": "Baars",
 
-        "link_foto":"images/baars.png",
+        "link_foto":"../images/baars.png",
 
         "info_vis":"De baars (Perca fluviatilis) is een vis uit de vissenfamilie Echte baarzen (Percidae), die in de Benelux inheems voorkomt. Verwanten van deze soort zijn onder andere de snoekbaars en de pos. De baars heeft een vrij hoog lichaam, twee rugvinnen en een kenmerkend patroon van meestal zes donkere dwarsbanden. De kleuren van de vis zeggen niet zoveel, maar aan de achterkant van de voorste rugvin heeft de baars altijd een zwarte vlek. De staart en de onderste vinnen hebben een oranje zweem.",
 
@@ -50,7 +50,7 @@ var vissenDB = {"vissen":[
 
         "titel": "Brasem",
 
-        "link_foto":"images/brasem.png",
+        "link_foto":"../images/brasem.png",
 
         "info_vis":"De brasem (Abramis brama) is een vis die behoort tot de familie van de Cyprinidae. Het is een van de talrijkste vissen van Nederland en door zijn gewicht vaak de belangrijkste vis qua biomassa. De maximale lengte is 90 cm. Een Duitse recordvis uit 2000 was 85 cm lang en woog zeven kg. Normale lengten zitten in het bereik van 40 tot 60 cm en brasems boven de 70 cm komen alleen in specifieke omstandigheden met een lage stand aan brasem voor.",
 
@@ -64,7 +64,7 @@ var vissenDB = {"vissen":[
 
         "titel": "Paling",
 
-        "link_foto":"images/paling.png",
+        "link_foto":"../images/paling.png",
 
         "info_vis":"De paling, ook wel aal of vollediger Europese aal (Anguilla anguilla), is een straalvinnige vis die behoort tot de familie echte palingen (Anguillidae). De soort is een trekvis. Deze bruin tot grijsachtig gekleurde vis heeft een zeer langwerpig lichaam dat meer dan een meter lang kan worden. Door de karakteristieke lichaamsbouw, lage rugkam en nauwelijks zichtbare schubben is deze gemakkelijk van andere vissen te onderscheiden.",
 
@@ -78,7 +78,7 @@ var vissenDB = {"vissen":[
 
         "titel": "Blankvoorn",
 
-        "link_foto":"images/blankvoorn.png",
+        "link_foto":"../images/blankvoorn.png",
 
         "info_vis":"De blankvoorn (Rutilus rutilus, synoniem: Leuciscus rutilus) is een vis uit de familie van de karperachtigen. In Nederland is het de meest algemeen voorkomende vis, die in bijna ieder watertype in grote aantallen voorkomt. Over het algemeen kan de blankvoorn herkend worden aan de rode vlek in de iris boven de pupil. In de grote rivieren en andere watertypen zijn de ogen soms bleek. Ook de kleur van de vinnen kan variëren, van bleek tot rood.",
 
@@ -92,7 +92,7 @@ var vissenDB = {"vissen":[
 
         "titel": "Haai",
 
-        "link_foto":"images/haai.png",
+        "link_foto":"../images/haai.png",
 
         "info_vis":"De witte haai of mensenhaai (Carcharodon carcharias) is de grootste roofvis ter wereld en de enige nog levende soort uit het geslacht Carcharodon. De witte haai behoort tot de groep makreelhaaien (Lamniformes). Deze hebben geen knipvlies en een rolvormige spiraalklep. De familie Lamnidae waartoe de witte haai behoort, bestaat uit veruit de meest gespecialiseerde haaien en staat in vele voedselketens bovenaan.",
 
@@ -100,19 +100,6 @@ var vissenDB = {"vissen":[
 
         },
 
-    "paling":
-
-        {
-
-        "titel": "paling",
-
-        "link_foto":"images/snoek.png",
-
-        "info_vis":"De paling, ook wel aal of vollediger Europese aal (Anguilla anguilla), is een straalvinnige vis die behoort tot de familie echte palingen (Anguillidae). De soort is een trekvis. Deze bruin tot grijsachtig gekleurde vis heeft een zeer langwerpig lichaam dat meer dan een meter lang kan worden. Door de karakteristieke lichaamsbouw, lage rugkam en nauwelijks zichtbare schubben is deze gemakkelijk van andere vissen te onderscheiden.",
-
-        "locaties":"Antwerpen, Oostende"
-        
-        }
 
     }]
 
