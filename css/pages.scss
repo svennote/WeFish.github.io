@@ -2,7 +2,7 @@
 ---
 
 $ahsc: #E8EAF6;
-$ahsd: #1A237E;
+$ahsd: #1D71B8;
 $ahse: #9FA8DA;
 
 * {
@@ -44,6 +44,7 @@ position: fixed;
 bottom:0;
 left:0;
 right:0;
+background-color: $ahsc;
 
 }
 
@@ -53,7 +54,7 @@ text-align:center;
 display:block;
 float:left;
 height:25px;
-width:31.33%;
+width:18%;
 padding:1%;
 background-color:$ahsd;
 text-decoration: none;
@@ -61,13 +62,15 @@ color:white;
 
 }
 
+
+
 footer a:visited {
 
 text-align:center;
 display:block;
 float:left;
 height:25px;
-width:31.33%;
+width:20%;
 padding:1%;
 background-color:$ahsd;
 text-decoration: none;
@@ -139,9 +142,9 @@ margin:15px 0px;
 
 .inlogger {
 
-width:30px;
-padding:10px;
-float:right;
+width:25px;
+
+
 cursor: pointer;
 }
 

@@ -2,7 +2,7 @@
 ---
 
 $ahsc: #3F51B5;
-$ahsd: #1A237E;
+$ahsd: #1D71B8;
 $ahse: #E8EAF6;
 
 * {
@@ -13,11 +13,7 @@ $ahse: #E8EAF6;
 
 }
 
-body {
-  
-  background-color: $ahsc;
 
-}
 
 @font-face {
 	font-family: 'Tw Cen MT';
@@ -76,6 +72,63 @@ a.link:hover {
 
 background-color:$ahsd;
 color:white;
+
+}
+
+.totaal {
+
+margin-top:120px;
+text-align: center;
+
+}
+
+.totaal table {
+
+	margin:o auto;
+	display:inline-block;
+
+}
+
+input[type="text"], input[type="password"]{
+
+min-width:170px;
+text-align: center;
+
+}
+
+input[type="submit"] {
+
+background-color:$ahsd;
+color:white;
+border:none;
+padding:5px 20px;
+border-radius: 10px;
+margin:0px 0px 25px 0px;
+
+}
+
+.totaal .registreerlink {
+
+margin:25px 0px;
+
+}
+
+.totaal .btn_gaVerder {
+
+background-color:$ahsd;
+color:white;
+border:none;
+padding:5px 20px;
+border-radius: 10px;
+margin:25px 0px 25px 0px;
+display: inline-block;
+text-decoration: none;
+
+}
+
+.totaal h3 {
+
+margin-bottom:25px;
 
 }
 
