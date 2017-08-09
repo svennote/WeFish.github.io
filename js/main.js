@@ -261,7 +261,7 @@ var locatiesDB = {"locatiesDBl":[
 function onlineChecker(){
 
 	if(localStorage.getItem("userOnline") == null){
-		window.location = "login.html";
+		window.location = "index.html";
 	}else{
 		window.location = "profile.html";
 	}
@@ -393,7 +393,7 @@ window.onload = function() {
 // Als je op de logout knop duwt word je afgemeld en naar de login pagina doorverwezen
 function logOut(){
 	localStorage.removeItem("userOnline");
-	window.location = "login.html";
+	window.location = "index.html";
 }
 
 
