@@ -105,157 +105,7 @@ var vissenDB = {"vissen":[
 
 }
 
-var locatiesDB = {"locatiesDBl":[
 
-    {
-
-    "Eiland_Malem":
-
-        {
-
-        "locatietitel": "Eiland Malem",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"Vijver waarvoor naast het verplicht visverlof tevens een bijzondere stedelijke vergunning wordt vereist. Voor het visgebied binnen het Eiland Malem komen enkel gepensioneerden en personen met een handicap in aanmerking.",
-
-        },
-
-    "vijver_dienstencentrum_mariakerke":
-
-        {
-
-        "locatietitel": "vijver dienstencentrum mariakerke",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"Vijver waarvoor naast het verplicht visverlof tevens een bijzondere stedelijke vergunning wordt vereist",
-
-        },
-
-    "Meierij":
-
-        {
-
-        "locatietitel": "Meierij",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"Vijver waarvoor een bijzondere stedelijke vergunning wordt vereist of de toelating wordt geregeld via de concessiehouder",
-
-        },
-
-    "Fort_Wommelgem":
-
-        {
-
-        "locatietitel": "Fort Wommelgem",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"Een visvergunning kan je kopen bij de financiële dienst in het gemeentehuis. Prijs visvergunning: inwoners	€ 10/jaar niet-inwoners	€ 15/jaar kinderen t.e.m. 11 jaar	gratis kinderen van 12 t.e.m. 13 jaar	50% korting personen vanaf 60 jaar	50% korting mindervaliden vanaf 50% invaliditeit	50% korting  Er zijn her en der plateau's aangelegd",
-
-        },
-
-    "fort_van_haasdonk":
-
-        {
-
-        "locatietitel": "fort van haasdonk",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"lidkaart van de haasdonkse fortvissers €25",
-
-        },
-
-    "Fort_van_Schoten":
-
-        {
-
-        "locatietitel": "Fort van Schoten",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"Vissen op het Fort van Schoten Het Fort van Schoten is militair domein. De militaire overheid wijst erop dat het absoluut verboden is om het Fort te betreden zonder vergunning. De visvergunning kunt u voor 8 euro aankopen bij : Sinte Barbara Vissersvereniging, Dhr Ronny Meeuw,Koningslei A 42, 2930 Brasschaat Tel: (03)630 25 96 (Dhr. Meeuw is op maandag in het bureau, van 10-12u. )",
-
-        },
-
-    "Sint_Pietersplas":
-
-        {
-
-        "locatietitel": "Sint-Pietersplas",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"Enkel engellidmaatschap bij VVW Brugge",
-
-        },
-
-    "Les_Cheminots":
-
-        {
-
-        "locatietitel": "Les Cheminots",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"Clubvijver €100 /jaar nachtvissen toegestaan, niet voorvoeren",
-
-        },
-
-    "Johnsons":
-
-        {
-
-        "locatietitel": "Johnsons",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"Clubvijver €50 /jaar",
-
-        },
-
-    "Spuikom_Oostende":
-
-        {
-
-        "locatietitel": "Spuikom Oostende",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"Vissen is toegestaan over de ganse spuikom, met uitzondering van het gebied aan de sluizen, dat voor geen enkele activiteit toegankelijk is, en het gebied voor de oesterkweek. Tijdens de wintermaanden is de noordelijke helft van de spuikom een winterrustgebied voor de talrijke watervogels die in het gebied voorkomen en moet elke activiteit in de zuidelijke helft plaatsgrijpen.",
-
-        },
-
-    "Visvijver_de_Duinvissers":
-
-        {
-
-        "locatietitel": "Visvijver de Duinvissers",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"Dagvergunningen mogelijk",
-
-        },
-
-    "Klein_Strand":
-
-        {
-
-        "locatietitel": "Klein Strand",
-
-        "locatielink_foto":"images/snoek.png",
-
-        "info_locatie":"Het hengelen in de vijver wordt toegelaten mits het aanschaffen van een geldig visverlof, geldig vanaf 1 januari to 31 december 2010. Een visverlof kunt u aankopen in de receptie of bij de visgarde langs de visvijver.",
-
-        }
-
-    }]
-
-}
 
 // Checkt of de user online is in de storage: ja => profielpagina , nee => inlogpagina
 function onlineChecker(){
@@ -335,60 +185,6 @@ window.onload = function() {
 
 	}
 
-	//LocatiedetailPagina dinges
-	if(document.getElementById('locatieDetailInfo') != undefined){
-	
-		console.log(vissenDB.vissen[0].snoek);
-		var linkdetail = document.getElementById('locatieDetailInfo');
-		var locatieNaam = JSON.parse(localStorage.getItem('Locationes'));
-		switch(locatieNaam) {
-		    case "Eiland_Malem":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].Eiland_Malem;
-		        break;
-		    case "vijver_dienstencentrum_mariakerke":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].vijver_dienstencentrum_mariakerke;
-		        break;
-		    case "Meierij":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].Meierij;
-		        break;
-		    case "Fort_Wommelgem":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].Fort_Wommelgem;
-		        break;
-		    case "fort_van_haasdonk":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].fort_van_haasdonk;
-		        break;
-		    case "Fort_van_Schoten":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].Fort_van_Schoten;
-		        break;
-		    case "Sint_Pietersplas":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].Sint_Pietersplas;
-		        break;
-		    case "Les_Cheminots":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].Les_Cheminots;
-		        break;
-		    case "Johnsons":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].Johnsons;
-		        break;
-		    case "Spuikom_Oostende":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].Spuikom_Oostende;
-		        break;
-		    case "Visvijver_de_Duinvissers":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].Visvijver_de_Duinvissers;
-		        break;
-		    case "Klein_Strand":
-		        var locatiebeginNaam = locatiesDB.locatiesDBl[0].Klein_Strand;
-		        break;
-		    default:
-		        text = "I have never heard of that location...";
-		}
-
-		console.log(beginNaam);
-		linkdetail.innerHTML = "<h2>"+locatiebeginNaam.locatietitel+"</h2><br/><p>"+locatiebeginNaam.info_locatie+"</p>";
-
-	}else{
-
-	}
-};
 
 // Als je op de logout knop duwt word je afgemeld en naar de login pagina doorverwezen
 function logOut(){
@@ -477,3 +273,27 @@ function locatieDataUpdate(locatieklik){
 	var locKlik = locatieklik;
     localStorage.setItem( 'Locationes', JSON.stringify(locKlik));
 };
+
+
+
+
+}
+
+/*
+
+function initMap() {
+        var myLatLng = {lat: 51.042366, lng: 3.7386417};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+
+*/

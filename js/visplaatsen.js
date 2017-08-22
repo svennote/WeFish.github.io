@@ -2,7 +2,7 @@ var html = '';
 var tempStr = '';
 $(document).ready(function () {
   $.simpleWeather({
-    location: 'Bruges, West-Vlaanderen',
+    location: 'Ghent, Oost-Vlaanderen',
     woeid: '',
     unit: 'C',
     success: function (weather) {
@@ -17,3 +17,4 @@ $(document).ready(function () {
     }
   })
 });
+

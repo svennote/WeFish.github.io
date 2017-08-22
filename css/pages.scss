@@ -12,11 +12,7 @@ $ahse: #9FA8DA;
   padding:0;
 }
 
-body {
 
-  background-color: $ahsc;
-
-}
 
 @font-face {
 	font-family: 'Tw Cen MT';
@@ -171,6 +167,44 @@ padding-bottom:75px;
 
 }
 
+.eetplaatsen{
+
+margin-top:80px;
+
+}
+
+.eetplaatsen h3 {
+
+text-align: center;
+margin-bottom:15px;
+
+}
+
+.eetplaatstotaal {
+
+min-width:200px;
+color:black;
+border-bottom:1px solid grey;
+min-height:100px;
+text-align: center;
+cursor:pointer;
+
+}
+
+.eetplaatstotaal a {
+
+text-decoration: none;
+
+}
+
+.eetplaatstotaal:hover {
+
+background-color:#9FA8DA;
+color:white;
+
+}
+
+
 
 
 .about {
@@ -180,12 +214,7 @@ color:black;
 
 }
 
-
-
-
-
-
-.stedeninfo{
+.visplaatsen {
 	margin-top: 65px;
   margin-bottom:65px;
 	margin-left: auto;
@@ -226,7 +255,7 @@ color:black;
 }
 
 .visWrapper{
-	height: 280px;
+	min-height: 380px;
 	width:280px;
 	margin-top: 75px;
 	margin-left: auto;
@@ -248,14 +277,7 @@ text-decoration: none;
   margin-right: auto;
 }
 
-.locatieDetailWrapper{
-  min-height: 280px;
-  min-width:100px;
-  max-width:300px;
-  margin-top: 75px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .visIcoon{
 	width: 80px;
