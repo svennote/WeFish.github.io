@@ -278,7 +278,7 @@ function locatieDataUpdate(locatieklik){
 
 
 }
-
+ /*
 // get favorites from local storage or empty array
 var favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 // add class 'fav' to each favorite
@@ -307,7 +307,7 @@ document.querySelector('.list').addEventListener('click', function(e) {
 
 // local storage stores strings so we use JSON to stringify for storage and parse to get out of storage
 
-/*
+
 
 function initMap() {
         var myLatLng = {lat: 51.042366, lng: 3.7386417};
