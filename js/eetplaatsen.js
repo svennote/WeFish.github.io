@@ -28,3 +28,7 @@ while (i < Data.length) {
 };
 document.querySelector('.resultaten').innerHTML = resultaten;
 }
+
+$(".eetplaatstotaal").click(function(){
+    $(".extra-info").slideToggle();
+});
