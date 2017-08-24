@@ -16,11 +16,9 @@ while (i < Data.length) {
 	resultaten += Data[i].STRAAT+ ' ' + Data[i].NUMMER;
     resultaten+= "" + "|" + "";
     resultaten += Data[i].telefoon;
-    resultaten += "";
+    resultaten+= "" + "|" + "";
     resultaten += Data[i].LABEL;
     resultaten += "<br />";
-    resultaten += "<div class='plaatsmap'>";
-    resultaten += "</div>";
     resultaten += "<br />";
     resultaten += "<br />";
 	resultaten += "</div>";
@@ -31,7 +29,7 @@ document.querySelector('.resultaten').innerHTML = resultaten;
 
  var map;
       function initMap() {
-        map = new google.maps.Map(document.getElementsByClassName('plaatsmap'), {
+        map = new google.maps.Map(document.getElementById('plaatsmap'), {
           zoom: 11,
           center: new google.maps.LatLng(51.135663957708,3.7990157076593),
           mapTypeId: 'terrain'
