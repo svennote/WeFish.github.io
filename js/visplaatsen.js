@@ -9,7 +9,7 @@ request.onload = function() {
   var Data = request.response;
   var i = 0;
   var resultaten = "";
-while (i < Data.length) {
+while (i < 3) {
 	resultaten += "<div class='eetplaatstotaal'>";
     resultaten += "<br />";
     resultaten += "<br />";
@@ -26,7 +26,6 @@ while (i < Data.length) {
 	i++;
 };
 document.querySelector('.resultaten').innerHTML = resultaten;
-var randomData = Data[Math.floor(Math.random()*Data.length)];
-document.getElementById("randomDataDiv").innerHTML = randomData;
+
 }
 
