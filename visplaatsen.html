@@ -15,8 +15,15 @@ title   : "We Fish"
   </div>
 
     <script>
+
+      var locations = [
+     ['visplaats haven 1', 3.180967,101.715546, 1],
+     ['visplaats haven 1', 3.200848,101.616669, 2],
+     ['visplaats haven 1', 3.147372,101.597443, 3],
+     ['visplaats haven 1', 3.19125,101.710052, 4]
+];
+
       var map;
-      var myLatLng = {lat: 51.135663957708, lng: 3.7990157076593};
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 11,
@@ -26,11 +33,13 @@ title   : "We Fish"
 
         map.data.loadGeoJson("https://datatank.stad.gent/4/milieuennatuur/visplaatsenhavengent.geojson");
 
-        var marker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    title: 'visplaats haven'
-  });
+       var marker, i;
+
+for (i = 0; i < locations.length; i++) {  
+    marker = new google.maps.Marker({
+         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+         map: map
+    });
     marker.addListener('click', toggleBounce);
 
     function toggleBounce() {
