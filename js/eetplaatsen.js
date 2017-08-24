@@ -30,5 +30,5 @@ document.querySelector('.resultaten').innerHTML = resultaten;
 }
 
 $(".eetplaatstotaal").click(function(){
-    $(".extra-info").Show();
+    console.log("geklikt");
 });
