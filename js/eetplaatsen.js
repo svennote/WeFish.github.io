@@ -19,7 +19,6 @@ while (i < Data.length) {
     resultaten += "";
     resultaten += "<br />";
     resultaten += "<br />";
-    resultaten += "<img src='../images/icon-toevoegen.png'>";
     resultaten += "<br />";
 	resultaten += "</div>";
 	i++;
