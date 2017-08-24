@@ -30,7 +30,6 @@ document.querySelector('.resultaten').innerHTML = resultaten;
 
 
  var map;
-      var myLatLng = {lat: Data[i].lat, lng: Data[i].lng};
       function initMap() {
         map = new google.maps.Map(document.getElementsByClassName('plaatsmap'), {
           zoom: 11,
