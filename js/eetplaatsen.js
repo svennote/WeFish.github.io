@@ -18,6 +18,9 @@ while (i < Data.length) {
     resultaten += Data[i].telefoon;
     resultaten += "";
     resultaten += "<br />";
+    resultaten += "<div class='extra-info'>";
+    resultaten += Data[i].LABEL;
+    resultaten += "</div>";
     resultaten += "<br />";
     resultaten += "<br />";
 	resultaten += "</div>";
