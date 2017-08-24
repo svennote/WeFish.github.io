@@ -17,9 +17,9 @@ while (i < Data.length) {
     resultaten+= "" + "|" + "";
     resultaten += Data[i].telefoon;
     resultaten += "";
-    resultaten += "<br />";
-    resultaten += "<div class='extra-info'>";
     resultaten += Data[i].LABEL;
+    resultaten += "<br />";
+    resultaten += "<div class='plaatsmap'>";
     resultaten += "</div>";
     resultaten += "<br />";
     resultaten += "<br />";
@@ -29,6 +29,13 @@ while (i < Data.length) {
 document.querySelector('.resultaten').innerHTML = resultaten;
 }
 
-$(".eetplaatstotaal").click(function(){
-    console.log("geklikt");
-});
+ var map;
+      var myLatLng = {lat: Data[i].lat, lng: Data[i].lng};
+      function initMap() {
+        map = new google.maps.Map(document.getElementsByClassName('plaatsmap'), {
+          zoom: 11,
+          center: new google.maps.LatLng(51.135663957708,3.7990157076593),
+          mapTypeId: 'terrain'
+        });
+
+      }
