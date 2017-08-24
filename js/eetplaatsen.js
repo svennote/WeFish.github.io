@@ -27,7 +27,7 @@ while (i < Data.length) {
 	i++;
 };
 document.querySelector('.resultaten').innerHTML = resultaten;
-}
+
 
  var map;
       var myLatLng = {lat: Data[i].lat, lng: Data[i].lng};
@@ -39,3 +39,4 @@ document.querySelector('.resultaten').innerHTML = resultaten;
         });
 
       }
+    }
