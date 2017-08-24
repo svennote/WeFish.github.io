@@ -6,7 +6,7 @@ $(document).ready(function () {
     woeid: '',
     unit: 'C',
     success: function (weather) {
-      html += '<h4><i class="icon-' + weather.code + '"></i> ' + weather.temp + '&deg;' + weather.units.temp + '</h4>';
+      html += '<h3><i class="icon-' + weather.code + '"></i> ' + weather.temp + '&deg;' + weather.units.temp + '</h3>';
 
       $("#weather").html(html);
     },
