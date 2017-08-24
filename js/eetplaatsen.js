@@ -27,8 +27,8 @@ while (i < Data.length) {
 document.querySelector('.resultaten').innerHTML = resultaten;
 
 
- var map;
-      function initMap() {
+        var map;
+      window.initMap = function() {
         map = new google.maps.Map(document.getElementById('plaatsmap'), {
           zoom: 11,
           center: new google.maps.LatLng(51.135663957708,3.7990157076593),
